@@ -170,7 +170,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-03-2021 22:51</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-03-2021 14:30</span>
     <br style="clear:left"/>
 </div>
 
@@ -233,12 +233,12 @@ I want to choose a flight
 
 
                                                             </td>
-                                                            <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                            <td><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i>
                                                                
                                                             </td>
                                                             <td>
                                                                    <a href="d77bb1383b0aa1701609b1864cae4051d0c90c733fa881882a22b8d62086e7a5.html"
-                                                                      class="badge more-details success">Details</a>
+                                                                      class="badge more-details error">Details</a>
                                                             </td>
                                                         </tr>
 
@@ -250,7 +250,7 @@ I want to choose a flight
 
 
                                                 <div class="scenario-docs card" id="20bc0c1ccdd7a52bbc9908f6736b1b8078f6b9e2549d70408a169548b6158ce2">
-                                                    <div class="scenario-docs card-header success">
+                                                    <div class="scenario-docs card-header error">
                                                         <span class="scenario-heading">
                                                             <a href="d77bb1383b0aa1701609b1864cae4051d0c90c733fa881882a22b8d62086e7a5.html"
                                                                title="More details...">Flight Reservation</a>
@@ -258,7 +258,7 @@ I want to choose a flight
                                                         <span class="scenario-result-icon">
                                                             
 
-                                                                <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i>
                                                         </span>
                                                     </div>
                                                     <div class="scenario-docs card-body">
@@ -273,6 +273,7 @@ I want to choose a flight
 </tbody>
 </table>
 </p>
+                                                            <p>Perform as: user</p>
                                                             <p>Then The user can see the rate selection</p>
                                                         <div class="examples">
                                                         </div>
@@ -294,10 +295,10 @@ I want to choose a flight
                                             </div>
                                             <script>
 
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -334,12 +335,11 @@ I want to choose a flight
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="82cf218bb8865d9a307f0afd2fd54d94d66ec8e8cf7f29a75b4da0ed32aa76be.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -376,12 +376,12 @@ I want to choose a flight
                                                 <td class="automated-stats">0</td>
                                                 <td class="automated-stats"> </td>
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="20759bb8f3f0597afc62cc040456350ca8877bd2cb3a6d0c4cd2ecf021d916e0.html"><i
+                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">100%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -416,16 +416,16 @@ I want to choose a flight
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result ERROR">
                                                     <td>
                                                             <a href="d77bb1383b0aa1701609b1864cae4051d0c90c733fa881882a22b8d62086e7a5.html">Flight Reservation</a>
                                                     </td>
-                                                    <td>3</td>
-                                                    <td>22:51:22</td>
-                                                    <td>00:40</td>
+                                                    <td>4</td>
+                                                    <td>14:30:59</td>
+                                                    <td>00:26</td>
                                                     <td>
-                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                                style="display:none">SUCCESS</span>
+                                                            <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
+                                                                style="display:none">ERROR</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>

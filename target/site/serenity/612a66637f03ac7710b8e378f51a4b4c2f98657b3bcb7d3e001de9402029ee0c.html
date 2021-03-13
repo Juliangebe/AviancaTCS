@@ -186,7 +186,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-03-2021 22:52</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-03-2021 14:31</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -234,10 +234,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -290,12 +290,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="82cf218bb8865d9a307f0afd2fd54d94d66ec8e8cf7f29a75b4da0ed32aa76be.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -332,12 +331,12 @@
                                                                 <td class="automated-stats">0</td>
                                                                 <td class="automated-stats"> </td>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="20759bb8f3f0597afc62cc040456350ca8877bd2cb3a6d0c4cd2ecf021d916e0.html"><i
+                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    </td>
+                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">100%</td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -381,17 +380,17 @@
                                                                                 <a href="37c2a4e779a613355edaa2a8ea1d6bfc3f08ea166becaf942700aeec1274ee01.html">Flight reservation</a>
                                                                         </td>
                                                                         <td>1</td>
-                                                                        <td>100%</td>
+                                                                        <td>0%</td>
                                                                         <td>
-                                                                                <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                                <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i>
                                                                         </td>
                                                                         <td>
                                                                             <div class="progress">
                                                                                     <div class="progress-bar"
                                                                                          role="progressbar"
-                                                                                         style="width: 100%; background-color: #30cb23"
+                                                                                         style="width: 100%; background-color: darkorange"
                                                                                          aria-valuenow="1"
-                                                                                         title="100% success"
+                                                                                         title="100% error"
                                                                                          aria-valuemin="0"
                                                                                          aria-valuemax="100">
                                                                                     </div>
@@ -403,6 +402,43 @@
                                                     </div>
                                                 </div>
 
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h3>Test Failure Overview</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Frequent Failures</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                            <tr>
+                                                                <td class="error-color top-list-title">
+                                                                    <a href="abb11c1ab3c52357484b4b9c8b45ccf05227687fc06efe8784452244cfa0889a.html"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> Element not visible exception</a>
+                                                                </td>
+                                                                <td><span
+                                                                        class="badge failure-badge">1</span>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <h4>Most Unstable Features</h4>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="failure-color top-list-title"><a
+                                                                            href="37c2a4e779a613355edaa2a8ea1d6bfc3f08ea166becaf942700aeec1274ee01.html">Flight Reservation</a>
+                                                                    </td>
+                                                                    <td><span
+                                                                            class="badge failure-badge">100%</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
 
                                             </div>
                                         </div>
@@ -424,18 +460,18 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result ERROR">
                                                     <td>
                                                             <a href="fa847f6d7d471f61446027c870eadaad4c87588c6184b48d385358c4eac6347f.html">Flight Reservation</a>
                                                     </td>
                                                     <td>
                                                         <a href="d77bb1383b0aa1701609b1864cae4051d0c90c733fa881882a22b8d62086e7a5.html">Flight Reservation</a>
                                                     </td>
-                                                    <td>3</td>
-                                                    <td>22:51:22</td>
-                                                    <td>00:40</td>
-                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                            style="display:none">SUCCESS</span></td>
+                                                    <td>4</td>
+                                                    <td>14:30:59</td>
+                                                    <td>00:26</td>
+                                                    <td><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
+                                                            style="display:none">ERROR</span></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
