@@ -15,6 +15,7 @@ import static co.com.avianca.certification.flights.userinterfaces.AviancaHomePag
 
 
 import co.com.avianca.certification.flights.models.CitiesModel;
+import co.com.avianca.certification.flights.questions.TheElement;
 import co.com.avianca.certification.flights.userinterfaces.AviancaHomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -25,6 +26,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.EnterValue;
 import net.serenitybdd.screenplay.actions.SendKeys;
 import net.serenitybdd.screenplay.targets.Target;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.Keys;
 
 import java.awt.*;
